@@ -133,6 +133,7 @@ aside .logo {
 
 .playlist ul li {
     margin-left: 20px;
+    padding-top: 5px;
 }
 
 .playlist ul li a {
@@ -152,6 +153,7 @@ aside .logo {
 .aside-border {
     width: 160px;
     margin-left: 20px;
+    margin-bottom: 10px;
     border-bottom: 2px solid #4a4a4a;
 }
 
@@ -164,9 +166,11 @@ aside .logo {
     text-decoration:none;
 }
 
-#aaa {
-    align-self: flex-end;
+.aside-border-due {
+    margin-bottom: 5px;
 }
+
+
 
 /*  NB NAV */
 
