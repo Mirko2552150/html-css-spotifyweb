@@ -10,3 +10,54 @@
     display: table;
     clear: both;
 }
+
+body {
+    font: Open Sans;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+aside {
+    width: 200px;
+    height: 100vh;
+    float: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+nav {
+    width: calc(100vw - 200px);
+    height: 100px;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 200px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+main {
+    width: calc(100vw - 200px);
+    height: 100vh;
+    overflow-y: auto;
+    background-color: violet;
+    max-width: 1200px;
+    float: left;
+}
+
+.music {
+    width: calc(100vw - 200px);
+    height: 80px;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    left: 200px;
+    background-color: orange;
+}
