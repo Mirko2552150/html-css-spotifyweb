@@ -89,10 +89,11 @@ aside .logo {
 }
 
 .home {
+    margin-top: 20px;
     border: 1px solid black;
-    height: 100px;
+    height: 120px;
     display: flex;
-    align-items: center;
+
 }
 
 .logo img {
@@ -111,18 +112,13 @@ aside .logo {
     font-weight: 600;
 }
 
-.home ul li a {
-    color: #999da8;
-
-}
-
 .home ul li a:hover {
     color: white;
     font-weight: bold;
 }
 
 .home ul li a {
-    color: violet;
+    color: #d8d8d8;
     text-decoration:none;
 }
 
@@ -256,6 +252,12 @@ nav button:hover {
 
 .music-uno p {
     margin-left: 20px;
+
+}
+
+.music-uno small {
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .music-uno i {
