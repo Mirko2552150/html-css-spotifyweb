@@ -234,6 +234,8 @@ nav button {
 nav button:hover {
     border: 3px solid white;
     cursor: pointer;
+    color: #1ab26b;
+    border: 3px solid #1ab26b;
 }
 
 /* NB MUSIC */
@@ -363,13 +365,12 @@ nav button:hover {
 
 main {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #333333;
 }
 
 .main--uno {
-    /* WARNING:  */ /* WARNING:  */
-    width: 1208px;
+    width: 100vw;
     height: 50px;
     border: 1px solid black;
     display: flex;
@@ -401,22 +402,34 @@ main {
 
 }
 
-
-
-/* .main--due {
-    width: calc(100% - 200px;);
-    height: 300px;
-    border: 1px solid black;
+.text-main-due {
+    border: 1px solid white;
 }
 
-.main--tre {
-    width: calc(100% - 200px;);
-    height: 300px;
-    border: 1px solid black;
+.card {
+    width: 150px;
+    height: 230px;
+    border: 1px solid white;
 }
 
-.main--quattro {
-    width: calc(100% - 200px;);
-    height: 300px;
-    border: 1px solid black;
-} */
+.img-main-due {
+    width: 150px;
+    height: 180px;
+    border: 1px solid white;
+}
+
+.img-main-due img {
+    width: 150px;
+    height: 180px;
+    padding: 1.5px;
+}
+
+.text-card {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
