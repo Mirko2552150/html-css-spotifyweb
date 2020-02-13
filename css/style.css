@@ -93,7 +93,6 @@ aside .logo {
 
 .home {
     margin-top: 20px;
-    border: 1px solid black;
     height: 120px;
     display: flex;
 
@@ -127,6 +126,10 @@ aside .logo {
 
 .home ul li a i {
     font-size: 18px;
+}
+
+.home .fas {
+    color: white;
 }
 
 .playlist strong {

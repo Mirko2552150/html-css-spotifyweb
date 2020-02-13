@@ -1,12 +1,171 @@
-/* XS */
-@media screen and (max-width 576px) {
+@media screen and (max-width: 992px) {
+  aside {
+    width: 150px;
+  }
+
+  nav {
+    width: calc(100% - 150px);
+    left: 150px;
+
+  }
+
+  main {
+    left: 150px;
+
+  }
+
+  aside .logo {
+    width: 150px;
+  }
+
+  aside .as-uno {
+      width: 150px;
+  }
+
+  aside .ms--aside-bottom {
+      width: 150px;
+  }
+
+  aside .aside-border {
+      width: 107px;
+  }
+
+  .logo img {
+    width: 125px;
+    height: 40px;
+  }
+
+  .home {
+    width: 150px;
+  }
+
+  .card {
+      margin: 2px;
+  }
+
+  #extra {
+      display: none;
+  }
+
+  .music-due {
+      width: 30%;
+  }
+
+ .music-uno i {
+    font-size: 12px;
+
+ }
+
+ .music-uno img {
+     width: 50px;
+     height: 50px;
+ }
+
+ .music-uno strong,small {
+     font-size: 9px;
+ }
+
+ .music-tre i {
+     font-size: 10px;
+ }
+
+ .bar-music {
+     width: 100px;
+ }
 
 }
-/* SM */
-@media screen and (max-width 768px) {
-    
+
+@media screen and (max-width: 768px) {
+    aside {
+      background-color: blue;
+    }
+
+    .main--uno {
+        height: 100px;
+    }
+
+    .main--uno ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    #extra {
+        display: block;
+    }
 }
-/* MD */
-@media screen and (max-width 992px) {
+@media screen and (max-width: 576px) {
+
+    aside {
+        background-color: green;
+    }
+
+    aside {
+        width: 50px;
+    }
+
+    nav {
+        width: calc(100% - 50px);
+        left: 50px;
+    }
+
+    main {
+        left: 50px;
+    }
+
+    aside .logo {
+        width: 50px;
+        display: none;
+    }
+
+    aside .as-uno {
+        width: 50px;
+    }
+
+    aside .ms--aside-bottom {
+        width: 50px;
+    }
+
+    #xsno {
+        display: none;
+      }
+
+    aside .aside-border {
+        width: 0;
+    }
+
+    .home {
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plus-icon {
+        justify-content: center;
+    }
+
+    .playlist .fa-plus-square {
+        margin: 0;
+    }
+
+    .home ul li {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .aside-border-due {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+
+    }
+
+    .aside-border-due .fas {
+        margin-left: 0;
+    }
 
 }
