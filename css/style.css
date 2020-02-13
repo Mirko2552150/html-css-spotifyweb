@@ -17,7 +17,6 @@ body {
 aside {
     width: 200px;
     height: calc(100% - 70px);
-    float: left;
     position: fixed;
     left: 0;
     top: 0;
@@ -28,7 +27,6 @@ aside {
 nav {
     width: calc(100% - 200px);
     height: 70px;
-    float: left;
     position: fixed;
     top: 0;
     left: 200px;
@@ -37,11 +35,13 @@ nav {
 }
 
 main {
+    position: fixed;
     height: calc(100vh - 70px);
     overflow-y: auto;
-    float: left;
-    padding-top: 70px;
-    padding-left: 200px;
+    top: 70px;
+    left: 200px;
+    bottom: 70px;
+    right: 0;
 }
 
 .music {
@@ -139,7 +139,7 @@ aside .logo {
 
 .playlist ul li {
     margin-left: 20px;
-    padding-top: 5px;
+    padding-top: 7px;
     font-size: 12px;
     font-weight: 600;
 }
@@ -173,8 +173,10 @@ aside .logo {
 }
 
 .fa-music {
-    margin-right: 2px;
+    margin-right: 4px;
     color: white;
+    font-size: 10px;
+
 }
 
 .ms--aside-bottom {
@@ -376,6 +378,7 @@ main {
 
     height: 50px;
     display: flex;
+    justify-content: center;
 
 }
 
@@ -409,11 +412,20 @@ main {
 
 .container-card {
     display: flex;
+    width: 1100px;
 }
 
 .text-main-due h2 {
     margin-left: 5px;
+    font-size: 20px;
 }
+
+.text-main-due h5 {
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+
+
 
 .card {
     width: 150px;
