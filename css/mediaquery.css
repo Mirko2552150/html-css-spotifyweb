@@ -93,11 +93,16 @@
     #extra {
         display: block;
     }
+
+    .container-card {
+    justify-content: flex-start;
+    }
+
 }
 @media screen and (max-width: 576px) {
 
-    aside {
-
+    .container-card {
+    justify-content: flex-start;
     }
 
     aside {
@@ -150,7 +155,7 @@
     }
 
     .plus-icon .fa-plus-square{
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     .plus-icon a {

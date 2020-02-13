@@ -431,7 +431,6 @@ main {
 
 .container-card {
     display: flex;
-    width: 1100px;
 }
 
 .text-main-due h2 {
@@ -447,6 +446,7 @@ main {
 .container-card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .card {
