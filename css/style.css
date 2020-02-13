@@ -92,8 +92,8 @@ aside .logo {
     width: 200px;
     height: 70px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-left: 15px;
 }
 
 #scrittaspotify {
@@ -431,10 +431,11 @@ main {
 
 .main--uno ul li:hover {
     transform: scale(1.1);
+
 }
 
-.main--due {
-
+.main--uno ul li a:hover {
+    color: #1ed760;
 }
 
 .container-card {

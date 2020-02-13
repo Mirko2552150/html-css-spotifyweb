@@ -16,8 +16,9 @@
 
   aside .logo {
     width: 150px;
+    justify-content: center;
   }
-
+     
   aside .as-uno {
       width: 150px;
   }
