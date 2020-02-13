@@ -77,6 +77,22 @@
      width: 100px;
  }
 
+ .card {
+     width: 170px;
+     height: 260px;
+     padding-bottom: 10px;
+ }
+
+ .img-main-due {
+     width: 170px;
+     height: 210px;
+ }
+
+ .img-main-due img {
+     width: 170px;
+     height: 210px;
+ }
+
 }
 
 @media screen and (max-width: 768px) {
