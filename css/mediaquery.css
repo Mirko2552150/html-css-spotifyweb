@@ -30,6 +30,10 @@
       width: 107px;
   }
 
+  aside .aside-border .fa-arrow-down {
+      color: white;
+  }
+
   .logo img {
     width: 125px;
     height: 40px;
@@ -201,5 +205,19 @@
     .as-uno .logo {
         height: 50px;
     }
+
+    .home ul li a i:hover {
+        transform: scale(1.2);
+    }
+
+    .playlist .plus-icon a i:hover {
+        transform: scale(1.2);
+    }
+
+    .playlist ul li a i:hover {
+        transform: scale(1.2);
+    }
+
+
 
 }
