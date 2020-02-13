@@ -14,6 +14,11 @@ body {
     font-family: sans-serif;
 }
 
+#trasla a i:hover {
+    transform: scale(1.1);
+    color: green;
+}
+
 aside {
     width: 200px;
     height: calc(100% - 70px);
@@ -91,6 +96,17 @@ aside .logo {
     align-items: center;
 }
 
+#scrittaspotify {
+    width: 90px;
+    height: 40px;
+}
+
+#logospotify {
+    width: 40px;
+    height: 40px;
+    margin-left: -40;
+}
+
 .home {
     margin-top: 20px;
     height: 120px;
@@ -166,7 +182,7 @@ aside .logo {
 
 .plus-icon i {
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: 15px;
     color: white;
 }
 
@@ -428,7 +444,10 @@ main {
     padding-bottom: 10px;
 }
 
-
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .card {
     width: 150px;
@@ -478,10 +497,6 @@ main {
 
 }
 
-.main--tre {
-
-}
-
 .main--quattro {
     width: 100vw;
 }
@@ -491,4 +506,8 @@ main {
     width: 150px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.last {
+    padding-bottom: 100px;
 }
